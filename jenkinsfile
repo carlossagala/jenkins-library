@@ -1,3 +1,4 @@
+#!groovy
 @Library('saga93-library') _
 
 pipeline {
