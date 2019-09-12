@@ -1,4 +1,7 @@
-@Library('saga93-library')
+#!groovy
+@Library('saga93-library@master')_
+
+def anything = 'nothing';
 
 pipeline {
     agent none 
