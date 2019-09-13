@@ -1,6 +1,6 @@
 def inputString(int number){
     return input ( message : "Ingrese un String para la ejecucion de la etapa N* ${number}",
-     parameters: [[$class: 'TextParameterDefinition', defaultValue: 'fail', description: 'si ingresa fail la ejecucion n* ${number} fallara', name: 'input']] )    
+     parameters: [[$class: 'TextParameterDefinition', defaultValue: 'fail', description: "si ingresa fail la ejecucion n* ${number} fallara", name: 'input']] )    
 }
 
 def ExecPipe (int number, boolean reintento = false){
